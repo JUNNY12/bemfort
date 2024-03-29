@@ -4,12 +4,6 @@ lint_node_18:
     - yarn install
     - yarn run lint
 
-lint_node_19:
-  image: node:19
-  script:
-    - yarn install
-    - yarn run lint
-
 lint_node_20:
   image: node:20
   script:
