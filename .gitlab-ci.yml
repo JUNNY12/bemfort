@@ -1,23 +1,23 @@
 lint_node_18:
   image: node:18
   script:
-    - npm install
-    - npm run lint
+    - yarn install
+    - yarn run lint
 
 lint_node_19:
   image: node:19
   script:
-    - npm install
-    - npm run lint
+    - yarn install
+    - yarn run lint
 
 lint_node_20:
   image: node:20
   script:
-    - npm install
-    - npm run lint
+    - yarn install
+    - yarn run lint
 
 lint_node_latest:
   image: node:latest
   script:
-    - npm install
-    - npm run lint
+    - yarn install
+    - yarn run lint
