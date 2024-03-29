@@ -12,7 +12,7 @@ export default function Home(): JSX.Element {
             <Button
                 handleClick={() => { console.log('Button clicked') }}
                 styles={'bg-violet-500 w-[200px] mt-6 mb-6 h-[50px] text-white rounded-md shadow-md hover:bg-violet-600'}
-                type={'button'}
+                type={'submit'}
                 title={'Submit'}
                 disabled={false}
             >
