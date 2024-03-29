@@ -1,5 +1,5 @@
 interface ContainerProps {
-    tag:'div' | 'section' | 'span' | 'main' | 'p'
+    tag?:'div' | 'section' | 'span' | 'main' | 'p'
     ariaLabel?:string;
     arialLabelledby?:string;
     role?:string;

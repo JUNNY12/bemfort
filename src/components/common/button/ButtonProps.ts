@@ -2,7 +2,7 @@
 type ButtonType = 'button' | 'submit' | 'reset' | undefined;
 
 interface ButtonProps {
-  handleClick?: () => void;
+  handleClick: () => void;
   ariaLabel?: string;
   role?: string;
   ariaLabelledby?: string;
