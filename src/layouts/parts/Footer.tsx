@@ -75,7 +75,7 @@ export default function Footer() {
           &copy; 2024 AgricTech | All Rights Reserved
         </div>
         <div className="lower-ico bg-light-green p-2 px-4">
-
+    
         </div>
       </div>
     </div>
