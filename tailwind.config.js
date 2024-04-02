@@ -34,6 +34,14 @@ export default {
         "umbra":'0px 16px 24px 2px rgba(0, 0, 0, 0.14)',
         "penumbra":'0px 6px 30px 5px rgba(0, 0, 0, 0.12)',
         "ambient":'0px 8px 10px rgba(0, 0, 0, 0.2)',
+      },
+      screens:{
+        '2xl': {'max': '1535px'},
+        'xl': {'max': '1279px'},
+        'lg': {'max': '1023px'},
+        'md': {'max': '767px'},
+        'sm': {'max': '479px'},
+        'xs': {'max': '320px'},
       }
     },
   },
