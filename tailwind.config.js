@@ -42,6 +42,13 @@ export default {
         'md': {'max': '767px'},
         'sm': {'max': '479px'},
         'xs': {'max': '320px'},
+      },
+      backgroundImage:{
+        'carousel-1':'url(/assets/images/carousel-1.jpg)',
+        'carousel-2':'url(/assets/images/carousel-2.jpg)',
+        'carousel-3':'url(/assets/images/carousel-3.jpg)',
+        'why-choose-us':'url(/assets/images/why.jpg)',
+        'leaf-bg':'url(/assets/images/leafBg.svg)',
       }
     },
   },
