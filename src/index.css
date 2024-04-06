@@ -12,3 +12,6 @@
     src: url("/public/assets/fonts/RobotoSerif-Regular.ttf");
 }
 
+h1{
+    @apply text-[40px]
+}
