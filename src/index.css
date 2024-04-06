@@ -4,11 +4,19 @@
 
 @font-face{
     font-family: "Roboto", sans-serif;
-    src: url("/public/assets/fonts/index.ts");
+    src: url("/assets/fonts/index.ts");
 }
 
 @font-face{
     font-family: "Roboto Serif", serif;
-    src: url("/public/assets/fonts/RobotoSerif-Regular.ttf");
+    src: url("/assets/fonts/RobotoSerif-Regular.ttf");
+}
+
+body{
+    background: #EAEAEA;
+}
+
+htm{
+    scroll-behavior: smooth !important;
 }
 

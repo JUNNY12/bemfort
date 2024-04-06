@@ -49,6 +49,7 @@ export default {
         'carousel-3':'url(/assets/images/carousel-3.jpg)',
         'why-choose-us':'url(/assets/images/why.jpg)',
         'leaf-bg':'url(/assets/images/leafBg.svg)',
+        'offer-bg':'url(/assets/images/offer.jpg)',
       }
     },
   },

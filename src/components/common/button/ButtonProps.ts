@@ -1,5 +1,6 @@
 
-type ButtonType = 'button' | 'submit' | 'reset' | undefined;
+type ButtonType = 'button' | 'submit' | 'reset' | undefined
+export type ButtonVariant = 'purple' | 'green' | undefined
 
 interface ButtonProps {
   handleClick?: () => void;
@@ -7,9 +8,11 @@ interface ButtonProps {
   role?: string;
   ariaLabelledby?: string;
   title?: string;
+  text: string;
   disabled?: boolean;
   styles?: string;
   type?: ButtonType;
+  variant?: ButtonVariant;
   children?: React.ReactNode;
 }
 

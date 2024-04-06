@@ -50,7 +50,13 @@ export const WhyChooseUs = (): JSX.Element => {
                     <div className="absolute left-0 right-0 bottom-[-6rem] bg-purple flex items-center mx-16 p-8 h-48">
                         <div className="h-24 flex items-center justify-between border-y-2 border-white border-dotted w-full max-w-[1200px] mx-auto px-8">
                             <p className="font-roboto-serif text-3xl font-semibold text-white">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                            <Button styles={'bg-green text-white border border-white rounded-md py-2 px-6 font-roboto-serif font-semibold'}>More Services</Button>
+                            <Button
+                                title="More Services"
+                                ariaLabel="More Services"
+                                variant={'green'}
+                                text='More Services'
+                                styles={'bg-green  border border-white font-roboto-serif font-semibold'}
+                            />
                         </div>
                     </div>
 

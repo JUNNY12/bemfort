@@ -3,6 +3,7 @@ import { HomeHero } from "@/components/specific/Home/HomeHero"
 import { ChooseUs } from "@/components/specific/Home/ChooseUs"
 import { WhyChooseUs } from "@/components/specific/Home/WhyChooseUs"
 import { Team } from "@/components/specific/Home/Team"
+import { WhatWeOffer } from "@/components/specific/Home/WhatWeOffer"
 
 export default function Home(): JSX.Element {
     return (
@@ -11,6 +12,7 @@ export default function Home(): JSX.Element {
             <ChooseUs />
             <WhyChooseUs />
             <Team />
+            <WhatWeOffer />
         </Container>
     )
 } 
