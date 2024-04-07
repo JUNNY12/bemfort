@@ -21,5 +21,17 @@ htm{
 }
 
 h1{
-    @apply text-[40px]
+    @apply text-[32px];
+}
+h2{
+    @apply text-[24px];
+}
+h3{
+    @apply text-[20px];
+}
+p{
+    @apply text-[16px];
+}
+caption{
+    @apply text-[12px];
 }
