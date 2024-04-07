@@ -1,5 +1,5 @@
 import Button from "@/components/common/button/Button"
-import { ChooseCard } from "@/components/common/card/ChooseCard"
+import { ChooseCard } from "@/components/shared/ChooseCard"
 import { Container } from "@/components/common/container/Container"
 import Typography from "@/components/common/typography/Typography"
 

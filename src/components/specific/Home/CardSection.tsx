@@ -1,5 +1,5 @@
 import { FlexContainer } from "@/components/common/container/FlexContainer"
-import { ServiceCard } from "@/components/common/card/ServiceCard"
+import { ServiceCard } from "@/components/shared/ServiceCard"
 
 export const CardSection = (): JSX.Element => {
     return (

@@ -50,6 +50,7 @@ export default {
         'why-choose-us':'url(/assets/images/why.jpg)',
         'leaf-bg':'url(/assets/images/leafBg.svg)',
         'offer-bg':'url(/assets/images/offer.jpg)',
+        'about-hero': 'url(/assets/images/aboutHero.jpg)'
       }
     },
   },
