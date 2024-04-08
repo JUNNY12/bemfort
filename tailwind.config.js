@@ -8,6 +8,7 @@ export default {
     extend: {
       colors:{
       "green":"#0B7509",
+      "green-alt": "#0B7509B2",
       "light-green":"#C7FBCF",
       "dark-green":"#0A611D",
       "purple":"#730975",
