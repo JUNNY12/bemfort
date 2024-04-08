@@ -11,8 +11,9 @@ interface AgricCardProps {
 export const AgricCard: React.FC<AgricCardProps> = ({ text, image }): JSX.Element => {
     return (
         <Card>
-            <FlexContainer tag="div" styles="flex items-center flex-col">
-                <Container tag="div" styles={'rounded-3xl mb-4 w-[200px] h-[200px] border-4 border-white'}>
+            <FlexContainer tag="div" styles="lg:my-4 my-10 relative flex items-center flex-col">
+                <FlexContainer tag="div" styles="absolute top-[-25px] border-4 rounded-full w-[50px] h-[50px] items-center justify-center font-roboto-sherif bg-purple text-white">01</FlexContainer>
+                <Container tag="div" styles={'agriImage rounded-3xl mb-4 w-full h-[auto] border-4 border-white'}>
                     <img
                         src={image}
                         alt={text}

@@ -35,3 +35,6 @@ p{
 caption{
     @apply text-[12px];
 }
+.agriImage{
+    @apply w-[180px] h-[180px] lg:w-[150px] lg:h-[150px];
+}
