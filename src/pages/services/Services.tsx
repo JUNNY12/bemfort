@@ -8,7 +8,7 @@ import LOS from "@/components/specific/Services/LOS";
 export default function Services() {
   return (
     <div>
-      <Jumbotron jumboTitle={"Services"} jumboDesc={"Services"}/>
+      <Jumbotron/>
       <LOS/>
       <ExploreMore/>
       <HowWeWork/>

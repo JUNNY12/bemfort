@@ -1,16 +1,17 @@
 import { FlexContainer } from "../container/FlexContainer";
 import Typography from "../typography/Typography";
-import JumbotronProps from "./JumbotronProps";
+import { useLocation } from "react-router-dom";
 
-
-export default function Jumbotron(props : JumbotronProps) {
+export default function Jumbotron() {
+  const userPage = useLocation().pathname.split('/');
+  const jumboTitleDesc = userPage[1];
   return (
     <FlexContainer tag={"div"} styles="bg-black text-white h-[592px] items-center justify-center flex-col">
-        <Typography variant={"h1"}>
-            {props.jumboTitle}
+        <Typography variant={"h1"} styles="capitalize">
+            {jumboTitleDesc}
         </Typography>
-        <Typography variant={"h3"}>
-            Agritech / {props.jumboDesc}
+        <Typography variant={"h3"} styles="capitalize">
+            Agritech / {jumboTitleDesc}
         </Typography>
     </FlexContainer>
   )
