@@ -10,7 +10,7 @@ import MailSupport from '@/assets/vector/support-mail.svg'
 
 export default function Footer() {
   return (
-    <div className="footer p-10 relative">
+    <div className="footer bg-white p-10 relative">
       <div className="hold-space p-10 relative">
         <div className="support-line absolute top-[-50%] translate-y-[-50%] w-[80%] left-1/2 translate-x-[-50%] flex justify-around bg-light-yellow p-5 rounded-[16px]">
           <div className="brick flex items-center flex-col">
