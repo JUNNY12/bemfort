@@ -1,4 +1,4 @@
-import { AgricCard } from "@/components/common/card/AgricCard";
+import { AgricCard } from "@/components/shared/AgricCard";
 import { Container } from "@/components/common/container/Container";
 import { FlexContainer } from "@/components/common/container/FlexContainer";
 import Typography from "@/components/common/typography/Typography";

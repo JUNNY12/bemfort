@@ -7,28 +7,13 @@ import { NavLink } from "react-router-dom"
 import Helpline from '@/assets/vector/Helpline.svg'
 import Address from '@/assets/vector/Address.svg'
 import MailSupport from '@/assets/vector/support-mail.svg'
+import SupportLineCard from "@/components/shared/SupportLineCard"
 
 export default function Footer() {
   return (
     <div className="footer bg-white p-10 relative">
       <div className="hold-space p-10 relative">
-        <div className="support-line absolute top-[-50%] translate-y-[-50%] w-[80%] left-1/2 translate-x-[-50%] flex justify-around bg-light-yellow p-5 rounded-[16px]">
-          <div className="brick flex items-center flex-col">
-            <img src={Helpline} className="mb-3 w-[80px]" alt="helpline_and_support" />
-            <Typography variant={"h3"} styles="text-lg font-bold" children={"Helpline and Support"} />
-            <p>+23490 xxxx-8905</p>
-          </div>
-          <div className="brick flex items-center flex-col">
-            <img src={Address} className="mb-3 w-[80px]" alt="helpline_and_support" />
-            <Typography variant={"h3"} styles="text-lg font-bold" children={"Our Address"} />
-            <p>lorem ipsum ipsum</p>
-          </div>
-          <div className="brick flex items-center flex-col">
-            <img src={MailSupport} className="mb-3 w-[80px]" alt="helpline_and_support" />
-            <Typography variant={"h3"} styles="text-lg font-bold" children={"Send a mail"} />
-            <p>agrictech@info.com</p>
-          </div>
-        </div>
+        <SupportLineCard styles={"absolute -top-1/2 -translate-y-1/2 left-1/2 translate-x-[-50%]"}/>
       </div>
 
 
