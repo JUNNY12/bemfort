@@ -11,7 +11,7 @@ const PrevButton: React.FC<PrevButtonProps> = ({ className, style, onClick, chil
     return (
         <button
             className={className}
-            style={{ ...style, display: "block", background: "", position: "absolute", top: "50%", left: "40px", zIndex: 1 }}
+            style={{ ...style, display: "block", background: "", position: "absolute", top: "50%", left: "0", zIndex: 1 }}
             onClick={onClick}
         >
             {children}

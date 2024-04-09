@@ -4,5 +4,7 @@ export const useGetPathName = (): string => {
     const location = useLocation()
     const pathName = location.pathname
 
-    return pathName.slice(1)
+    const formattedPathName = pathName.replace(/\//g, ' / ')
+
+    return formattedPathName
 }
