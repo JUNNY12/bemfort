@@ -52,7 +52,9 @@ export default {
         'leaf-bg':'url(/assets/images/leafBg.svg)',
         'offer-bg':'url(/assets/images/offer.jpg)',
         'we-offer': 'url(/assets/images/we-offer.jpg)',
-        'services': 'url(/assets/images/services-header.jpg)'
+        'services': 'url(/assets/images/services-header.jpg)',
+        'about-hero': 'url(/assets/images/aboutHero.jpg)',
+        'contact-hero': 'url(/assets/images/career.avif)'
       }
     },
   },

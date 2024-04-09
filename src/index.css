@@ -2,21 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
+@font-face {
     font-family: "Roboto", sans-serif;
     src: url("/assets/fonts/index.ts");
 }
 
-@font-face{
+@font-face {
     font-family: "Roboto Serif", serif;
     src: url("/assets/fonts/RobotoSerif-Regular.ttf");
 }
 
-body{
+body {
     background: #EAEAEA;
 }
 
-htm{
+htm {
     scroll-behavior: smooth !important;
 }
 
@@ -37,4 +37,12 @@ caption{
 }
 .agriImage{
     @apply w-[180px] h-[180px] lg:w-[150px] lg:h-[150px];
+}
+
+.career-carousel .swiper-button-next {
+
+}
+
+.career-carousel .swiper-button-prev {
+   
 }

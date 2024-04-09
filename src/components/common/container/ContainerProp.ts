@@ -6,6 +6,7 @@ interface ContainerProps {
     title?:string;
     styles?:string;
     children: React.ReactNode;
+    className?:string;
 }
 
 export default ContainerProps

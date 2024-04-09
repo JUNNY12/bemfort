@@ -1,7 +1,7 @@
 import React from 'react'
-import { Container } from "../container/Container"
-import { FlexContainer } from "../container/FlexContainer"
-import { Card } from './Card'
+import { Container } from "../common/container/Container"
+import { FlexContainer } from "../common/container/FlexContainer"
+import { Card } from '../common/card/Card'
 
 interface ChooseCardProps {
     title?: string;

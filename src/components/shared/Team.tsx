@@ -1,7 +1,7 @@
 import { Container } from "@/components/common/container/Container"
 import { FlexContainer } from "@/components/common/container/FlexContainer"
 import Typography from "@/components/common/typography/Typography"
-import { TeamCard } from "@/components/common/card/TeamCard"
+import { TeamCard } from "@/components/shared/TeamCard"
 
 export const Team = (): JSX.Element => {
     return (

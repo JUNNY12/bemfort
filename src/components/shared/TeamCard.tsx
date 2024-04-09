@@ -1,6 +1,6 @@
-import { Container } from "../container/Container"
-import { Card } from "./Card"
-import { FlexContainer } from "../container/FlexContainer"
+import { Container } from "../common/container/Container"
+import { Card } from "../common/card/Card"
+import { FlexContainer } from "../common/container/FlexContainer"
 
 interface TeamCardProps {
     name: string;

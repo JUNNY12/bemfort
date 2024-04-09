@@ -11,7 +11,7 @@ const NextButton: React.FC<NextButtonProps> = ({ className, style, onClick, chil
     return (
         <button
             className={className}
-            style={{ ...style, display: "block", background: "", position: "absolute", top: "50%", right: "40px", zIndex: 1 }}
+            style={{ ...style, display: "block", background: "", position: "absolute", top: "50%", right: "30px", zIndex: 1 }}
             onClick={onClick}
         >
             {children}

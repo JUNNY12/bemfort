@@ -8,7 +8,7 @@ export const Container: React.FC<ContainerProps> = (props) => {
             aria-labelledby={props.arialLabelledby}
             title={props.title}
             role={props.role}
-            className={`${props.styles}`}
+            className={`${props.styles} ${props.className}`}
         >
             {props.children}
         </Tag>
