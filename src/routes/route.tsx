@@ -5,6 +5,7 @@ import RootLayout from "@/layouts/root_layout.tsx"
 import About from "@/pages/about/About"
 import Career from "@/pages/career/Career"
 import Apply from "@/pages/apply/Apply"
+import Contact from "@/pages/contact/Contact"
 
 const routes = createBrowserRouter(
     createRoutesFromElements(
@@ -14,6 +15,7 @@ const routes = createBrowserRouter(
             <Route path="/about" element={<About />} />
             <Route path="/career" element={<Career />} />
             <Route path="/career/apply" element={<Apply />} />
+            <Route path="/contact" element={<Contact />} />
         </Route>
     )
 )
