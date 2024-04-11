@@ -1,8 +1,7 @@
-import Button from "@/components/common/button/Button";
-import { Container } from "@/components/common/container/Container";
-import { FlexContainer } from "@/components/common/container/FlexContainer";
-import Typography from "@/components/common/typography/Typography";
-import { Link } from "react-router-dom";
+import { Container } from "@/components/common/container/Container"
+import { FlexContainer } from "@/components/common/container/FlexContainer"
+import Typography from "@/components/common/typography/Typography"
+import { Link } from "react-router-dom"
 
 
 export default function ExploreMore() {

@@ -1,15 +1,15 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 import { Container } from "../container/Container"
-import { FlexContainer } from "../container/FlexContainer";
+import { FlexContainer } from "../container/FlexContainer"
 import { Card } from "./Card"
-import Typography from "../typography/Typography";
+import Typography from "../typography/Typography"
 
 
 interface ServiceCardType2Props {
-    index?: number | string;
-    title?: string;
-    description?: string;
-    linkTo: string;
+    index?: number | string
+    title?: string
+    description?: string
+    linkTo: string
 }
 
 export const ServiceCardType2: React.FC<ServiceCardType2Props> = ({ index, title, description, linkTo }): JSX.Element => {
@@ -25,7 +25,7 @@ export const ServiceCardType2: React.FC<ServiceCardType2Props> = ({ index, title
                         {title}
                     </Card.CardTitle>
                 </FlexContainer>
-                
+
                 <Card.CardDescription styles={'!text-[12px] text-xl font-semibold'}>
                     {description}
                 </Card.CardDescription>
@@ -35,8 +35,8 @@ export const ServiceCardType2: React.FC<ServiceCardType2Props> = ({ index, title
                             Read More
                         </Link>
                     </Container>
-                    
-                    <Typography variant={"h1"} styles="font-bold" children={index}/>
+
+                    <Typography variant={"h1"} styles="font-bold" children={index} />
                 </FlexContainer>
             </Card.CardWrapper>
         </Card>
