@@ -1,11 +1,14 @@
 import { Container } from "@/components/common/container/Container"
-import { ContactHero } from "@/components/specific/Contact/ContactHero"
+import Jumbotron from "@/components/common/jumbotron/Jumbotron"
+import { ContactForm } from "@/components/specific/Contact/ContactForm"
+import { TopHeader } from "@/components/specific/Contact/TopHeader"
 
 export default function Contact(): JSX.Element {
     return (
         <Container tag="section" >
-            <ContactHero />
-
+            <Jumbotron backgroundImg={'bg-contact-hero'} />
+            <TopHeader />
+            <ContactForm />
         </Container>
     )
 }

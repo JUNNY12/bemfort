@@ -32,8 +32,8 @@ const CardLink: React.FC<{ styles?: string, children: React.ReactNode, linkRoute
 
 
 
-export const Card = ({ children }: React.PropsWithChildren): JSX.Element => {
-    return <Container tag="article">{children}</Container>
+export const Card = ({ children }: React.PropsWithChildren, style?:string): JSX.Element => {
+    return <Container tag="article" styles={style}>{children}</Container>
 }
 
 Card.CardWrapper = CardWrapper

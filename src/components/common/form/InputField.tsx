@@ -11,7 +11,7 @@ export const InputField: React.FC<InputProps> = ({ label, name, type, placeholde
                 value={value}
                 onChange={onChange}
                 disabled={disabled}
-                className={` rounded-md ${inputStyles}`}
+                className={` rounded-md ${inputStyles} font-roboto-serif`}
             />
             {error && <p className="">Input filed can't be empty!</p>}
         </div>
