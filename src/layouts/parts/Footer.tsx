@@ -15,7 +15,7 @@ export default function Footer() {
       {
         userPage !== 'contact' && (
           <div className="hold-space p-10 relative">
-            <SupportLineCard styles={"absolute -top-1/2 -translate-y-1/2 left-1/2 translate-x-[-50%]"} />
+            <SupportLineCard styles={"absolute -top-1/2 -translate-y-1/2 left-1/2 translate-x-[-50%] z-[20]"} />
           </div>
         )
       }
