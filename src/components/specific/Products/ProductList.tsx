@@ -8,7 +8,7 @@ import ProductImage from "/public/assets/images/productImage.jpg";
 
 export default function ProductList() {
   return (
-    <FlexContainer tag={"div"} styles="p-[50px] justify-between">
+    <FlexContainer tag={"div"} styles="justify-between">
         <FlexContainer tag="div" styles="basis-[46%] bg-light-green flex-col px-7 py-7 pt-0 rounded-[9px]">
             <Typography variant={"h2"} children={"Product Lists"} styles="py-4 font-bold" />
             <FlexContainer tag="div" styles="flex-col">
@@ -22,8 +22,8 @@ export default function ProductList() {
                 } 
             </FlexContainer>
         </FlexContainer>
-        <Container tag="div" styles="overflow-hidden basis-[46%]">
-            <img src={ProductImage} className="w-full"/>
+        <Container tag="div" styles="relative overflow-hidden w-[46%] basis-[46%] bg-green">
+            <img src={ProductImage} className="block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-150"/>
         </Container>
     </FlexContainer>
   )
