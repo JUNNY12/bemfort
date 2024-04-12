@@ -4,12 +4,12 @@ import { FlexContainer } from "@/components/common/container/FlexContainer"
 
 export const TopHeader: React.FC = (): JSX.Element => {
     return (
-        <Container tag="section" styles={'p-16 mb-16'}>
-            <FlexContainer tag="div" styles="justify-between items-center flex-col">
-                <Typography variant="h1" styles="text-6xl font-regular font-roboto-serif max-w-[550px] mb-3 text-center">
+        <Container tag="section" styles={'mt-16 mb-32 mx-16 lg:mx-8 md:!mx-4'}>
+            <FlexContainer tag="div" styles="justify-between items-center flex-col text-center">
+                <Typography variant="h1" styles="text-6xl md:text-4xl sm:!text-[28px] font-regular font-roboto-serif max-w-[550px] md:max-w-[400px]  mb-3">
                     Please Don't Hesitate To Contact Us
                 </Typography>
-                <p className="text-2xl font-roboto-serif text-neutral-700">
+                <p className="text-2xl md:text-lg font-roboto-serif text-neutral-700">
                     You can also reach out to us by phone or email are many variations
                 </p>
             </FlexContainer>
