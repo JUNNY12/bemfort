@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <div className="absolute lg:sticky z-[60] top-[20px] lg:top-0 left-[50%] lg:left-0 translate-x-[-50%] lg:translate-x-0 flex w-[95%] lg:w-full  rounded-full lg:rounded-none items-center justify-between py-2 px-10 bg-[#fff]">
+    <div className="absolute lg:sticky z-[60] top-[20px] lg:top-0 left-[50%] lg:left-0 lg:right-0 translate-x-[-50%] lg:translate-x-0 flex w-[95%] lg:w-full  rounded-full lg:rounded-none items-center justify-between py-2 px-10 bg-[#fff]">
       <div className="logo">
         <img src={Logo} alt="" />
       </div>
