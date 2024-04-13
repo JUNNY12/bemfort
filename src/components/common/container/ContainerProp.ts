@@ -6,6 +6,7 @@ interface ContainerProps {
     title?:string;
     styles?:string;
     children: React.ReactNode;
+    click?: () => void;
     className?:string;
 }
 
