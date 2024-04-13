@@ -25,15 +25,15 @@ export const ApplyForm: React.FC = (): JSX.Element => {
     }
 
     return (
-        <Container tag="section" styles={'mt-16 font-roboto-serif mb-44'}>
+        <Container tag="section" styles={'mt-16 lg:mt-8  font-roboto-serif mb-44'}>
             <FlexContainer tag="div" styles={'justify-center'}>
-                <Typography variant="h1" styles={'text-3xl text-center mb-6 relative border-b pb-2 border-black'}>
+                <Typography variant="h1" styles={'text-3xl text-center mb-8 relative border-b pb-2 border-black'}>
                     Apply Now
                 </Typography>
             </FlexContainer>
-            <Container tag="div" styles={'bg-taint-white p-16 font-roboto'}>
+            <Container tag="div" styles={'bg-taint-white p-16 lg:p-8 md:!p-4 font-roboto'}>
                 <form onSubmit={handleSubmit} >
-                    <Container tag="div" styles={'grid grid-cols-2 gap-6 mb-6'}>
+                    <Container tag="div" styles={'grid grid-cols-2 md:grid-cols-1 gap-6 mb-6'}>
                         <InputField
                             value={formData.firstName}
                             onChange={handleChange}
@@ -104,7 +104,7 @@ export const ApplyForm: React.FC = (): JSX.Element => {
                         label="Cover Letter"
                         inputStyles="w-full px-4 py-2 border-[1.5px] border-neutral-col-400 focus:border-2 focus:outline-none focus:border-dark-green transition-colors duration-300"
                     />
-                    <Button text="Submit" type="submit" variant="green" styles={'w-96 py-2 mt-6'} />
+                    <Button text="Submit" type="submit" variant="green" styles={'w-96 md:w-full py-2 mt-6 hover:bg-white hover:text-green hover:border hover:border-green ease-in-out duration-500'} />
                 </form>
             </Container>
         </Container>
