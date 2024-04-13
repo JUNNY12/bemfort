@@ -13,7 +13,7 @@ export default function Footer() {
 
 
   return (
-    <div className="footer bg-white p-10 lg:p-0 relative overflow-hidden">
+    <div className="footer bg-white p-10 lg:p-0 relative ">
       {
         userPage !== 'contact' && (
           <div className="hold-space p-10 lg:p-0 relative">
