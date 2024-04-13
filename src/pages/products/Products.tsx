@@ -6,7 +6,7 @@ export default function Products() {
   return (
     <Container tag="div">
         <Jumbotron/>
-        <Container tag="div" styles="p-[64px]">
+        <Container tag="div" styles="bg-white p-[64px] lg:p-[20px]">
           <ProductList /> 
         </Container>
     </Container>
