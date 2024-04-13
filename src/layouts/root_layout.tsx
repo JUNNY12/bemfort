@@ -10,7 +10,7 @@ export default function RootLayout() {
     const isHidden = ROUTE_LINKS.includes(location)
 
     return (
-        <div className="rootLayout">
+        <div className="relative rootLayout overflow-hidden">
             {isHidden && <Header />}
             <Outlet />
             {isHidden && <Footer />}
