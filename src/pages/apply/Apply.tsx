@@ -1,11 +1,11 @@
 import { Container } from "@/components/common/container/Container"
+import Jumbotron from "@/components/common/jumbotron/Jumbotron"
 import { ApplyForm } from "@/components/specific/Apply/ApplyForm"
-import { CareerHero } from "@/components/specific/Career/CareerHero"
 
 export default function Apply(): JSX.Element {
     return (
         <Container tag="section">
-            <CareerHero />
+            <Jumbotron backgroundImg={'bg-career-hero'} />
             <ApplyForm />
         </Container>
     )

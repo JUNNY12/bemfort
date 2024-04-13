@@ -20,29 +20,73 @@ htm {
     scroll-behavior: smooth !important;
 }
 
-h1{
+h1 {
     @apply text-[32px];
 }
-h2{
+
+h2 {
     @apply text-[24px];
 }
-h3{
+
+h3 {
     @apply text-[20px];
 }
-p{
+
+p {
     @apply text-[16px];
 }
-caption{
+
+caption {
     @apply text-[12px];
 }
-.agriImage{
+
+.agriImage {
     @apply w-[180px] h-[180px] lg:w-[150px] lg:h-[150px];
 }
 
-.career-carousel .swiper-button-next {
+.nav-btn {
+    display: block;
+    position: absolute;
+    z-index: 20;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: #0A611D;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 5px;
+    transition: background 0.5s ease;
+    color: #f5f5f5;
+    padding: 0.5rem;
+    font-size: 2rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1rem;
+    }
+
 
 }
 
-.career-carousel .swiper-button-prev {
-   
+.nav-btn:hover {
+    background-color: #C7FBCF;
+    color: #0A611D;
+}
+
+.nav-btn.custom-prev-button {
+    bottom: 15px;
+    left: 40%;
+
+    @media screen and (max-width: 496px) {
+        left: 30%;
+
+    }
+}
+
+.nav-btn.custom-next-button {
+    right: 40%;
+    bottom: 15px;
+
+    @media screen and (max-width: 496px) {
+        right: 30%;
+
+    }
 }
