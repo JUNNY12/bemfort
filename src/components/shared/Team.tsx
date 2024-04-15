@@ -40,8 +40,8 @@ export const Team = (): JSX.Element => {
                 <Container tag="div" styles={'mt-12'}>
                     <Typography
                         variant="h3"
-                        styles={'text-2xl mb-3 text-neutral-col-600 border-b-2 border-neutral-col-600 w-full max-w-[240px] font-semibold font-roboto'}>
-                        Our Team Memebers
+                        styles={'text-2xl mobile-big:text-xl mb-3 text-neutral-col-600 border-b-2 border-neutral-col-600 w-[228px] mobile-big:w-[190px] font-semibold font-roboto'}>
+                        Our Team Members
                     </Typography>
                     <FlexContainer tag="div" styles={'flex-row md:flex-col gap-16 tablet:gap-3 justify-between mt-8 tablet:mt-3'}>
                         <p className=" text-dark-green text-6xl tablet:text-[52px] sm:!text-[32px] sm:!leading-[40px] mb-3 tablet:!mb-0 text-left font-roboto-serif font-semibold w-full max-w-[500px]">

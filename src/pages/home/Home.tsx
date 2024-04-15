@@ -11,7 +11,9 @@ export default function Home(): JSX.Element {
             <HomeHero />
             <ChooseUs />
             <WhyChooseUs />
-            <Team />
+            <Container tag="div" styles={'tablet:-mt-12'}>
+                <Team />
+            </Container>
             <WhatWeOffer />
         </Container>
     )
