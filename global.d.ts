@@ -14,7 +14,7 @@ declare namespace JSX {
             onSwiper?: (swiper: unknown) => void;
             onSlideChange?: (swiper: unknown) => void;
             'pagination-clickable'?: PaginationClickable;
-            'autoplay-delay': autoPlayDelay;
+            'autoplay-delay'?: autoPlayDelay;
         };
         'swiper-slide': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & {
             // Add more properties

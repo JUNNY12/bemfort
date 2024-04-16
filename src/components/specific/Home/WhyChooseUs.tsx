@@ -3,6 +3,7 @@ import { ChooseCard } from "@/components/shared/ChooseCard"
 import { Container } from "@/components/common/container/Container"
 import Typography from "@/components/common/typography/Typography"
 import { CHOOSE_US_DATA } from "@/constants/constants"
+import { Fade, JackInTheBox } from "react-awesome-reveal"
 
 export const WhyChooseUs = (): JSX.Element => {
     return (
@@ -19,23 +20,27 @@ export const WhyChooseUs = (): JSX.Element => {
                     <div className=" absolute top-0 left-[45%] tablet:left-[40%] transform -translate-x-1/2">
                         <img src="/assets/images/Arrow2.svg" className="tablet:w-[200px] " alt="" />
                     </div>
-                    <div className=" flex justify-center flex-col items-center mx-16 lg:mx-8 tablet:!mx-4">
-                        <Typography variant="h3" styles="mt-32 text-2xl mobile-big:text-xl z-50 mb-6 text-green font-bold font-roboto border-b-2 border-green max-w-[300px] ">
-                            Why Choose Us
-                        </Typography>
+                    <Fade cascade damping={0.2} direction="up" duration={1000}>
+                        <div className=" flex justify-center flex-col items-center mx-16 lg:mx-8 tablet:!mx-4">
+                            <Typography variant="h3" styles="mt-32 text-2xl mobile-big:text-xl z-50 mb-6 text-green font-bold font-roboto border-b-2 border-green max-w-[300px] ">
+                                Why Choose Us
+                            </Typography>
 
-                        <Typography variant="h3" styles=" font-semibold z-50 max-w-[750px] text-center font-roboto-serif text-6xl lg:text-5xl md:!text-3xl ">
-                            Vulputate elementum vestibulum sem
-                        </Typography>
-                    </div>
+                            <Typography variant="h3" styles=" font-semibold z-50 max-w-[750px] text-center font-roboto-serif text-6xl lg:text-5xl md:!text-3xl ">
+                                Vulputate elementum vestibulum sem
+                            </Typography>
+                        </div>
+                    </Fade>
+
 
                     <div className="grid grid-cols-2 mobile-big:grid-cols-1 gap-8 pb-48 tablet:pb-12 mt-8 mx-16 lg:mx-8 tablet:!mx-4">
                         {CHOOSE_US_DATA.map((item, index) => (
-                            <ChooseCard
-                                key={index}
-                                title={item.title}
-                                description={item.description}
-                            />
+                            <JackInTheBox key={index} cascade damping={0.2} duration={1500}>
+                                <ChooseCard
+                                    title={item.title}
+                                    description={item.description}
+                                />
+                            </JackInTheBox>
                         ))}
                     </div>
 

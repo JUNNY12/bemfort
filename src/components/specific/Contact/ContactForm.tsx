@@ -72,7 +72,7 @@ export const ContactForm: React.FC = (): JSX.Element => {
                     />
 
                     <FlexContainer tag="div" styles="justify-center mt-6 pb-16 font-roboto-serif">
-                        <Button variant="green" styles={'w-72 hover:shadow-umbra ease-in-out duration-500 py-3 '} text="Send a Message" />
+                        <Button variant="green" styles={'w-72 hover:shadow-umbra ease-in-out duration-500 py-2 '} text="Send a Message" />
                     </FlexContainer>
                 </form>
 

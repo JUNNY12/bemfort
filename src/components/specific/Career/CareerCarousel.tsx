@@ -2,6 +2,7 @@ import { Container } from "@/components/common/container/Container"
 import Typography from "@/components/common/typography/Typography"
 import { register } from 'swiper/element/bundle'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import { Fade } from "react-awesome-reveal"
 
 register()
 
@@ -15,8 +16,6 @@ export default function CareerCarousel() {
                 navigation="true"
                 slidesPerView={1}
                 loop={true}
-                autoplay-delay="3000"
-                autoplay-disable-on-interaction="true"
                 speed={3000}
                 effect="flip"
                 grab-cursor="true"
@@ -29,28 +28,30 @@ export default function CareerCarousel() {
                         <Typography variant="h1" styles={'text-6xl lg:text-5xl md:!text-3xl mb-3 font-bold text-center text-green mb-6 font-roboto-serif'}>
                             Join Our Team
                         </Typography>
-                        <p className=" text-justify mb-6 text-base md:text-sm font-roboto">
-                            Lorem ipsum dolor sit amet consectetur.
-                            Consectetur lobortis in fermentum tortor viverra
-                            volutpat posuere ipsum. Vel massa adipiscing
-                            mauris elementum nulla. Vulputate elementum
-                            vestibulum sem mollis.Lorem ipsum dolor sit
-                            amet consectetur. Consectetur lobortis in
-                            fermentum tortor viverra volutpat posuere ipsum.
-                            Vel massa adipiscing mauris elementum nulla.
-                            Vulputate elementum vestibulum sem mollis.
-                        </p>
-                        <p className=" text-justify text-base md:text-sm font-roboto mb-6">
-                            Lorem ipsum dolor sit amet consectetur.
-                            Consectetur lobortis in fermentum tortor viverra
-                            volutpat posuere ipsum. Vel massa adipiscing
-                            mauris elementum nulla. Vulputate elementum
-                            vestibulum sem mollis.Lorem ipsum dolor sit
-                            amet consectetur. Consectetur lobortis in
-                            fermentum tortor viverra volutpat posuere ipsum.
-                            Vel massa adipiscing mauris elementum nulla.
-                            Vulputate elementum vestibulum sem mollis.
-                        </p>
+                        <Fade cascade damping={0.2} duration={1000} direction="up">
+                            <p className=" text-justify mb-6 text-base md:text-sm font-roboto">
+                                Lorem ipsum dolor sit amet consectetur.
+                                Consectetur lobortis in fermentum tortor viverra
+                                volutpat posuere ipsum. Vel massa adipiscing
+                                mauris elementum nulla. Vulputate elementum
+                                vestibulum sem mollis.Lorem ipsum dolor sit
+                                amet consectetur. Consectetur lobortis in
+                                fermentum tortor viverra volutpat posuere ipsum.
+                                Vel massa adipiscing mauris elementum nulla.
+                                Vulputate elementum vestibulum sem mollis.
+                            </p>
+                            <p className=" text-justify text-base md:text-sm font-roboto mb-6">
+                                Lorem ipsum dolor sit amet consectetur.
+                                Consectetur lobortis in fermentum tortor viverra
+                                volutpat posuere ipsum. Vel massa adipiscing
+                                mauris elementum nulla. Vulputate elementum
+                                vestibulum sem mollis.Lorem ipsum dolor sit
+                                amet consectetur. Consectetur lobortis in
+                                fermentum tortor viverra volutpat posuere ipsum.
+                                Vel massa adipiscing mauris elementum nulla.
+                                Vulputate elementum vestibulum sem mollis.
+                            </p>
+                        </Fade>
                     </Container>
                 </swiper-slide>
 
@@ -60,28 +61,30 @@ export default function CareerCarousel() {
                         <Typography variant="h1" styles={'text-6xl lg:text-5xl md:!text-3xl mb-3 font-bold text-center text-green mb-6 font-roboto-serif'}>
                             Join Our Team
                         </Typography>
-                        <p className=" text-justify mb-6 text-base md:text-sm font-roboto">
-                            Lorem ipsum dolor sit amet consectetur.
-                            Consectetur lobortis in fermentum tortor viverra
-                            volutpat posuere ipsum. Vel massa adipiscing
-                            mauris elementum nulla. Vulputate elementum
-                            vestibulum sem mollis.Lorem ipsum dolor sit
-                            amet consectetur. Consectetur lobortis in
-                            fermentum tortor viverra volutpat posuere ipsum.
-                            Vel massa adipiscing mauris elementum nulla.
-                            Vulputate elementum vestibulum sem mollis.
-                        </p>
-                        <p className=" text-justify text-base md:text-sm font-roboto mb-6">
-                            Lorem ipsum dolor sit amet consectetur.
-                            Consectetur lobortis in fermentum tortor viverra
-                            volutpat posuere ipsum. Vel massa adipiscing
-                            mauris elementum nulla. Vulputate elementum
-                            vestibulum sem mollis.Lorem ipsum dolor sit
-                            amet consectetur. Consectetur lobortis in
-                            fermentum tortor viverra volutpat posuere ipsum.
-                            Vel massa adipiscing mauris elementum nulla.
-                            Vulputate elementum vestibulum sem mollis.
-                        </p>
+                        <Fade cascade damping={0.2} duration={1000} direction="up">
+                            <p className=" text-justify mb-6 text-base md:text-sm font-roboto">
+                                Lorem ipsum dolor sit amet consectetur.
+                                Consectetur lobortis in fermentum tortor viverra
+                                volutpat posuere ipsum. Vel massa adipiscing
+                                mauris elementum nulla. Vulputate elementum
+                                vestibulum sem mollis.Lorem ipsum dolor sit
+                                amet consectetur. Consectetur lobortis in
+                                fermentum tortor viverra volutpat posuere ipsum.
+                                Vel massa adipiscing mauris elementum nulla.
+                                Vulputate elementum vestibulum sem mollis.
+                            </p>
+                            <p className=" text-justify text-base md:text-sm font-roboto mb-6">
+                                Lorem ipsum dolor sit amet consectetur.
+                                Consectetur lobortis in fermentum tortor viverra
+                                volutpat posuere ipsum. Vel massa adipiscing
+                                mauris elementum nulla. Vulputate elementum
+                                vestibulum sem mollis.Lorem ipsum dolor sit
+                                amet consectetur. Consectetur lobortis in
+                                fermentum tortor viverra volutpat posuere ipsum.
+                                Vel massa adipiscing mauris elementum nulla.
+                                Vulputate elementum vestibulum sem mollis.
+                            </p>
+                        </Fade>
                     </Container>
                 </swiper-slide>
 
@@ -91,30 +94,34 @@ export default function CareerCarousel() {
                         <Typography variant="h1" styles={'text-6xl lg:text-5xl md:!text-3xl mb-3 font-bold text-center text-green mb-6 font-roboto-serif'}>
                             Join Our Team
                         </Typography>
-                        <p className=" text-justify mb-6 text-base md:text-sm font-roboto">
-                            Lorem ipsum dolor sit amet consectetur.
-                            Consectetur lobortis in fermentum tortor viverra
-                            volutpat posuere ipsum. Vel massa adipiscing
-                            mauris elementum nulla. Vulputate elementum
-                            vestibulum sem mollis.Lorem ipsum dolor sit
-                            amet consectetur. Consectetur lobortis in
-                            fermentum tortor viverra volutpat posuere ipsum.
-                            Vel massa adipiscing mauris elementum nulla.
-                            Vulputate elementum vestibulum sem mollis.
-                        </p>
-                        <p className=" text-justify text-base md:text-sm font-roboto mb-6">
-                            Lorem ipsum dolor sit amet consectetur.
-                            Consectetur lobortis in fermentum tortor viverra
-                            volutpat posuere ipsum. Vel massa adipiscing
-                            mauris elementum nulla. Vulputate elementum
-                            vestibulum sem mollis.Lorem ipsum dolor sit
-                            amet consectetur. Consectetur lobortis in
-                            fermentum tortor viverra volutpat posuere ipsum.
-                            Vel massa adipiscing mauris elementum nulla.
-                            Vulputate elementum vestibulum sem mollis.
-                        </p>
+                        <Fade cascade damping={0.2} duration={1000} direction="up">
+                            <p className=" text-justify mb-6 text-base md:text-sm font-roboto">
+                                Lorem ipsum dolor sit amet consectetur.
+                                Consectetur lobortis in fermentum tortor viverra
+                                volutpat posuere ipsum. Vel massa adipiscing
+                                mauris elementum nulla. Vulputate elementum
+                                vestibulum sem mollis.Lorem ipsum dolor sit
+                                amet consectetur. Consectetur lobortis in
+                                fermentum tortor viverra volutpat posuere ipsum.
+                                Vel massa adipiscing mauris elementum nulla.
+                                Vulputate elementum vestibulum sem mollis.
+                            </p>
+                            <p className=" text-justify text-base md:text-sm font-roboto mb-6">
+                                Lorem ipsum dolor sit amet consectetur.
+                                Consectetur lobortis in fermentum tortor viverra
+                                volutpat posuere ipsum. Vel massa adipiscing
+                                mauris elementum nulla. Vulputate elementum
+                                vestibulum sem mollis.Lorem ipsum dolor sit
+                                amet consectetur. Consectetur lobortis in
+                                fermentum tortor viverra volutpat posuere ipsum.
+                                Vel massa adipiscing mauris elementum nulla.
+                                Vulputate elementum vestibulum sem mollis.
+                            </p>
+                        </Fade>
                     </Container>
                 </swiper-slide>
+
+
 
             </swiper-container>
             <div className="nav-btn custom-prev-button">
