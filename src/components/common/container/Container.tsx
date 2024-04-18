@@ -9,6 +9,7 @@ export const Container: React.FC<ContainerProps> = (props) => {
             title={props.title}
             role={props.role}
             className={`${props.styles} ${props.className}`}
+            onClick={props.click}
         >
             {props.children}
         </Tag>

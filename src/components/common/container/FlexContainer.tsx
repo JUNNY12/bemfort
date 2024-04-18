@@ -11,6 +11,7 @@ export const FlexContainer: React.FC<ContainerProps> = (props) => {
             title={props.title}
             role={props.role}
             className={`${props.styles} flex`}
+            onClick={ props.click }
         >
             {props.children}
         </Tag>

@@ -25,13 +25,13 @@ export const ApplyForm: React.FC = (): JSX.Element => {
     }
 
     return (
-        <Container tag="section" styles={'mt-16 lg:mt-8  font-roboto-serif mb-44'}>
+        <Container tag="section" styles={'mt-16 lg:mt-8  font-roboto-serif mb-32 lg:mb-0'}>
             <FlexContainer tag="div" styles={'justify-center'}>
                 <Typography variant="h1" styles={'text-3xl text-center mb-8 relative border-b pb-2 border-black'}>
                     Apply Now
                 </Typography>
             </FlexContainer>
-            <Container tag="div" styles={'bg-taint-white p-16 lg:p-8 md:!p-4 font-roboto'}>
+            <Container tag="div" styles={'bg-taint-white p-16 lg:p-8 md:!p-4 lg:!pb-8 font-roboto'}>
                 <form onSubmit={handleSubmit} >
                     <Container tag="div" styles={'grid grid-cols-2 md:grid-cols-1 gap-6 mb-6'}>
                         <InputField

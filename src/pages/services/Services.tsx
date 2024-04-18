@@ -1,15 +1,13 @@
 import Jumbotron from "@/components/common/jumbotron/Jumbotron"
-import ExploreMore from "@/components/specific/Services/ExploreMore"
-import HowWeWork from "@/components/specific/Services/HowWeWork"
 import LOS from "@/components/specific/Services/LOS"
+import { WhatWeOffer } from "@/components/shared/WhatWeOffer"
 
 export default function Services() {
   return (
     <div>
-      <Jumbotron />
+      <Jumbotron backgroundImg="bg-services-hero" />
       <LOS />
-      <ExploreMore />
-      <HowWeWork />
+      <WhatWeOffer />
     </div>
   )
 }

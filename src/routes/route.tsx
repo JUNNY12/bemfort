@@ -7,6 +7,7 @@ import Career from "@/pages/career/Career"
 import Apply from "@/pages/apply/Apply"
 import Contact from "@/pages/contact/Contact"
 import Products from "@/pages/products/Products"
+import SingleProuct from "@/pages/singleProduct/SingleProduct"
 import { NoMatch } from "@/pages/noMatch/NoMatch"
 
 const routes = createBrowserRouter(
@@ -18,7 +19,10 @@ const routes = createBrowserRouter(
             <Route path="/career" element={<Career />} />
             <Route path="/career/apply" element={<Apply />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/products" element={<Products />} />
+            <Route path="/products">
+                <Route index element={<Products />} />
+                <Route path=":name" element={<SingleProuct />} />
+            </Route>
             <Route path="*" element={<NoMatch />} />
         </Route>
     )

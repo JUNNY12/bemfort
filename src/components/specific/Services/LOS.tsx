@@ -1,50 +1,22 @@
-// LOS => list of services
-
+import { LOS_DATA } from "@/constants/constants"
 import { ServiceCardType2 } from "@/components/common/card/ServiceCardType2"
 import { FlexContainer } from "@/components/common/container/FlexContainer"
-
+import { JackInTheBox } from "react-awesome-reveal"
 
 
 export default function LOS() {
-  const data = [
-    {
-      title: "Lorem Ipsum dolor",
-      desc: "Lorem ipsum dolor sit amet consectetur. Tortor libero nunc tempor nunc vitae lacinia nibh mattis.",
-      link: "/home",
-    },
-    {
-      title: "Lorem Ipsum dolor",
-      desc: "Lorem ipsum dolor sit amet consectetur. Tortor libero nunc tempor nunc vitae lacinia nibh mattis.",
-      link: "/home",
-    },
-    {
-      title: "Lorem Ipsum dolor",
-      desc: "Lorem ipsum dolor sit amet consectetur. Tortor libero nunc tempor nunc vitae lacinia nibh mattis.",
-      link: "/home",
-    },
-    {
-      title: "Lorem Ipsum dolor",
-      desc: "Lorem ipsum dolor sit amet consectetur. Tortor libero nunc tempor nunc vitae lacinia nibh mattis.",
-      link: "/home",
-    },
-    {
-      title: "Lorem Ipsum dolor",
-      desc: "Lorem ipsum dolor sit amet consectetur. Tortor libero nunc tempor nunc vitae lacinia nibh mattis.",
-      link: "/home",
-    },
-    {
-      title: "Lorem Ipsum dolor",
-      desc: "Lorem ipsum dolor sit amet consectetur. Tortor libero nunc tempor nunc vitae lacinia nibh mattis.",
-      link: "/home",
-    }
 
-  ]
   return (
-    <FlexContainer tag="div" styles="[&>article]:basis-[32%] lg:[&>article]:basis-[100%] [&>article]:mb-[16px] [&>article]:overflow-hidden [&>article]:border [&>article]:rounded-md [&>*:nth-child(odd)]:border-[transparent] [&>*:nth-child(even)]:border-green p-[64px] lg:p-[32px] flex-wrap items-start justify-between">
+    <FlexContainer tag="div" styles={'grid grid-cols-3 lg:grid-cols-2 mobile-big:grid-cols-1 gap-6 mx-16 lg:mx-8 tablet:!mx-4 my-16'}>
       {
-        data.map((info, i) => (
-          <ServiceCardType2 title={info.title} description={info.desc} linkTo={info.link} index={i.toString().length < 2 ? "0" + (i + 1) : (i + 1)} />
-
+        LOS_DATA.map((info, i) => (
+          <JackInTheBox key={i} cascade damping={0.2} duration={1500}>
+            <ServiceCardType2
+              title={info.title}
+              description={info.desc}
+              linkTo={info.link}
+            />
+          </JackInTheBox>
         ))
       }
     </FlexContainer>

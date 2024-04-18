@@ -57,11 +57,14 @@ export default {
         'leaf-bg': 'url(/assets/images/leafBg.svg)',
         'offer-bg': 'url(/assets/images/offer.jpg)',
         'we-offer': 'url(/assets/images/we-offer.jpg)',
-        'services': 'url(/assets/images/services-header.jpg)',
         'about-hero': 'url(/assets/images/aboutHero.jpg)',
         'career-hero': 'url(/assets/images/career.avif)',
         'contact-hero': 'url(/assets/images/contact.avif)',
         'contact-section': 'url(/assets/images/contact-section.jpg)',
+        'services-hero': 'url(/assets/images/services-header-bg.jpg)',
+        'products-hero': 'url(/assets/images/product-image.jpg)',
+        'need-help': 'url(/assets/images/need-help.avif)',
+
       }
     },
   },

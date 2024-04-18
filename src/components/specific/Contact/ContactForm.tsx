@@ -23,7 +23,7 @@ export const ContactForm: React.FC = (): JSX.Element => {
 
     return (
         <Container tag='section' styles={'relative bg-center bg-contact-section bg-cover w-full h-full'}>
-            <SupportLineCard styles={"absolute -top-20 z-50 border border-purple left-1/2 translate-x-[-50%]"} />
+            <SupportLineCard styles={"lg:gap-5 absolute lg:relative -top-20 lg:top-0 left-1/2 lg:left-0 translate-x-[-50%] lg:translate-x-0 lg:!rounded-none lg:w-full tablet:flex-col z-[20]"} />
             <Container tag="div" styles={'w-full h-full text-white font-roboto-serif bg-black/20 backdrop-brightness-50'} >
                 <form action="" onSubmit={handleSubmit} className=" mx-16 lg:mx-8 md:!mx-4 pt-36">
                     <Container tag="div" styles={'grid grid-cols-2 md:grid-cols-1 gap-6'}>
