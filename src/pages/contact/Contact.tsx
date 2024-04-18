@@ -5,10 +5,12 @@ import { TopHeader } from "@/components/specific/Contact/TopHeader"
 
 export default function Contact(): JSX.Element {
     return (
-        <Container tag="section" >
-            <Jumbotron backgroundImg={'bg-contact-hero'} />
-            <TopHeader />
-            <ContactForm />
-        </Container>
+        <>
+            <Container tag="section" >
+                <Jumbotron backgroundImg={'bg-contact-hero'} />
+                <TopHeader />
+                <ContactForm />
+            </Container>
+        </>
     )
 }

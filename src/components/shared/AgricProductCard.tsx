@@ -1,5 +1,5 @@
-import { Container } from "../container/Container"
-import Typography from "../typography/Typography"
+import { Container } from "../common/container/Container"
+import Typography from "../common/typography/Typography"
 
 interface APCardProps {
     index?: number | string

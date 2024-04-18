@@ -1,7 +1,7 @@
-import { Container } from "../container/Container"
-import { FlexContainer } from "../container/FlexContainer"
-import { Card } from "./Card"
-import Typography from "../typography/Typography"
+import { Container } from "../common/container/Container"
+import { FlexContainer } from "../common/container/FlexContainer"
+import { Card } from "../common/card/Card"
+import Typography from "../common/typography/Typography"
 
 
 interface ServiceCardType2Props {

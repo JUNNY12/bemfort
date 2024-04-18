@@ -7,14 +7,16 @@ import { WhatWeOffer } from "@/components/shared/WhatWeOffer"
 
 export default function Home(): JSX.Element {
     return (
-        <Container tag="section">
-            <HomeHero />
-            <ChooseUs />
-            <WhyChooseUs />
-            <Container tag="div" styles={'tablet:-mt-12'}>
-                <Team />
+        <>
+            <Container tag="section">
+                <HomeHero />
+                <ChooseUs />
+                <WhyChooseUs />
+                <Container tag="div" styles={'tablet:-mt-12'}>
+                    <Team />
+                </Container>
+                <WhatWeOffer />
             </Container>
-            <WhatWeOffer />
-        </Container>
+        </>
     )
 } 

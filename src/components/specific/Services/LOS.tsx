@@ -1,5 +1,5 @@
 import { LOS_DATA } from "@/constants/constants"
-import { ServiceCardType2 } from "@/components/common/card/ServiceCardType2"
+import { ServiceCardType2 } from "@/components/shared/ServiceCardType2"
 import { FlexContainer } from "@/components/common/container/FlexContainer"
 import { JackInTheBox } from "react-awesome-reveal"
 

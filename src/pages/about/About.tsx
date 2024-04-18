@@ -6,11 +6,13 @@ import { AboutWho } from "@/components/specific/About/AboutWho"
 
 export default function About(): JSX.Element {
     return (
-        <Container tag="section">
-            <Jumbotron backgroundImg={'bg-about-hero'} />
-            <AboutWho />
-            <Team />
-            <AboutBenefit />
-        </Container>
+        <>
+            <Container tag="section">
+                <Jumbotron backgroundImg={'bg-about-hero'} />
+                <AboutWho />
+                <Team />
+                <AboutBenefit />
+            </Container>
+        </>
     )
 }
