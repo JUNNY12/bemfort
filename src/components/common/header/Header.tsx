@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { NAV_LINKS, SOCIAL_LINKS } from '@/constants/constants'
 import { useScrollPosition } from '@/hooks/useScrollPosition'
@@ -56,9 +56,9 @@ export default function Header() {
             const Icon = link.icon
             return (
               <div className="icon" key={index}>
-                <NavLink to={link.path}>
+                <Link to={link.path} target='_blank'>
                   <Icon />
-                </NavLink>
+                </Link>
               </div>
             )
           })}

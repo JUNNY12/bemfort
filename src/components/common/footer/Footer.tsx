@@ -64,13 +64,13 @@ export default function Footer() {
           &copy; 2024 {COMPANY_NAME} | All Rights Reserved
         </div>
         <div className="text-[45px] flex justify-between lg:justify-center gap-3 lg:gap-4 lower-ico bg-light-green text-dark-green p-2 px-4 lg:w-[85%] lg:my-2 lg:mx-auto rounded-[15px]">
-          <Link to="/social">
+          <Link target="_blank" to="/social">
             <FaFacebook />
           </Link>
-          <Link to="/social">
+          <Link target="_blank" to="/social">
             <FaInstagram />
           </Link>
-          <Link to="/social">
+          <Link target="_blank" to="/social">
             <FaTwitter />
           </Link>
         </div>
