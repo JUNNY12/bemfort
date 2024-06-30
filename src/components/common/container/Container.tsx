@@ -1,7 +1,8 @@
+import React from "react"
 import ContainerProps from "./ContainerProp"
 
 export const Container: React.FC<ContainerProps> = (props) => {
-    const Tag = props.tag as keyof JSX.IntrinsicElements
+    const Tag = props.tag as keyof React.JSX.IntrinsicElements
     return (
         <Tag
             aria-label={props.ariaLabel}

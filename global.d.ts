@@ -4,10 +4,10 @@ type autoPlayDelay = string
 declare namespace JSX {
     interface IntrinsicElements {
         'swiper-container': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & {
-            navigation: string;
-            slidesPerView: number;
-            loop: boolean;
-            speed: number;
+            navigation?: string;
+            slidesPerView?: number;
+            loop?: boolean;
+            speed?: number;
             pagination?: string;
             effect?: string;
             spaceBetween?: number;
